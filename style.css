@@ -1,0 +1,108 @@
+ 
+        body{
+            background-image: url(photo2.jpg) ;
+            color: white;
+            background-size:100%;
+            font-family: cursive;
+          
+            
+        }
+
+        .container{
+
+          height: 50px;
+          width: 100%;
+        }
+    
+     .left{
+        position: absolute;
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        top: 0%;
+        left: 19px;
+     }
+     .mid{
+        /* border: 2px solid yellow; */
+        display:block;
+        width: 37%;
+        margin:1px auto;
+     
+     }
+     .right{
+        /* border: 2px solid white;  */
+        display: inline-block;
+        right: 12px;
+        position: absolute;
+        top: 3%;
+     }
+     .logo{
+        line-height: 4px;
+     }
+    .left img{
+filter: invert(100%);
+     }
+   .navbar{
+    display: inline-block;
+   }
+   .navbar li{
+    display: inline-block;
+    padding: 2px ;
+   }
+   li a{
+    padding: 14px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+   }
+    a:hover, a:active{
+    text-decoration: underline;
+    color: gray;
+   }
+   .left img{
+    margin-left:9px;
+    width: 70px;
+   }
+   .btn{
+    background-color: black;
+    color: white;
+    border-color: white;
+    padding: 3px 3px;
+    cursor: pointer;
+    font-family: cursive;
+    margin-right: 15px;
+   }
+   .btn:hover{
+    color:gray;
+   }
+   .form{
+    border: 2px solid white;
+    width: 430px;
+    height: 430px;
+    margin: 122px 100px;
+    border-radius: 20px;
+   }
+   .form h1{
+    width: 300px;
+    margin: 18px auto;
+    text-align: center;
+   }
+   form{
+    text-align: center;
+   }
+.box input{
+    text-align: center;
+    width: 280px;
+    padding: 8px 4px;
+    margin: 3px;
+    font-family: cursive;
+   }
+   form .btn{
+    width:290px ;
+    margin-top: 2px;
+    margin-left: 15px;
+   }
+   form #top{
+    margin-top:19px ;
+   }
+   
